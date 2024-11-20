@@ -1,0 +1,15 @@
+function(){
+
+    // Lines to assige status of certain limit crossed or not ? 
+    var IsCrossedCertainEventCountLimit_ = 'No'
+    var threshold_number_for_Spam_Filtering = Number( {{spam_event_counter_threshold_RegExTable}} )
+    var retrieve_ga4EventCount_value_3e = parseInt(sessionStorage.getItem("ga4EventCount_"));
+    
+    if(retrieve_ga4EventCount_value_3e > threshold_number_for_Spam_Filtering) {
+       IsCrossedCertainEventCountLimit_ = 'Yes'
+       return IsCrossedCertainEventCountLimit_
+    }else{
+       IsCrossedCertainEventCountLimit_ = 'No'     
+       return IsCrossedCertainEventCountLimit_
+    }
+}
