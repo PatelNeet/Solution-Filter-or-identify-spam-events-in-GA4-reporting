@@ -15,8 +15,9 @@ Created a RegEx Table variable (spam_event_counter_threshold_RegExTable) for dat
 ![image](https://github.com/user-attachments/assets/db0f78e0-f073-4f5e-a89a-bff43a66c08b)
 
 ## 3. Spam hit Validation Mechanism:
-Introduced a CJS variable (certain_event_count_cross_flag_cjs) to compare session storage values with the thresholds, returning "Yes" or "No" values ([snapshot]([url](https://prnt.sc/NiM4WH2J1k-0))).
-![image](https://github.com/user-attachments/assets/2f9023a6-073b-4ef9-a90c-7f77f706e195)
+Introduced a CJS variable (certain_event_count_cross_flag_cjs) to compare session storage values with the thresholds, returning "Yes" or "No" values ([snapshot]([url](https://prnt.sc/l_je8t6qBTvK)))
+![image](https://github.com/user-attachments/assets/a070bb03-8cdd-4128-b262-27f7c60ef36e)
+
 
 ## 4. Custom Flag Parameter Implementation:
 Configured the certain_event_count_cross_flag parameter to pass the value returned by the CJS variable([snapshot]([url](https://prnt.sc/xsLG3ngegliT))).
