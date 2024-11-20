@@ -1,0 +1,14 @@
+<script>
+
+var ga4EventCount_3e_value = sessionStorage.getItem("ga4EventCount_");
+
+if(!ga4EventCount_3e_value){
+  sessionStorage.setItem("ga4EventCount_", 1);
+}else{
+  var currentCount = Number(ga4EventCount_);
+  var updatedCount = currentCount + 1;
+  sessionStorage.setItem("ga4EventCount_", updatedCount);
+
+}
+
+</script>  
